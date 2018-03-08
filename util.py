@@ -10,13 +10,6 @@ def is_point_inside_poly(x, y, poly):
     p1x = poly.points[0].x
     p1y = poly.points[0].y
     
-    print(poly.points[0])
-    print(p1x)
-    print(p1y)
-    print(y)
-    
-    
-    
     for i in range(n+1):
         p2x = poly.points[i % n].x
         p2y = poly.points[i % n].y
